@@ -1,0 +1,146 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  height:100%;
+}
+
+body{
+  background-image: url("img/pattern.png");
+  margin:0;
+  padding:0;
+  position: relative;
+}
+
+.gambar{
+  background-image: url("img/ART.jpg")
+}
+
+header{
+  height:60px;
+  width:100%;
+  background-color: black;
+  position:fixed;
+  z-index : 100;
+}
+
+header img{
+    border-radius: 100%;
+
+}
+nav {
+  float: right;
+  position: inline;
+  display: inline-block;
+  padding-bottom: 10px;
+
+}
+
+nav ul{
+  margin: 0px;
+  height:20px;
+  text-align: center;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-left: 20px;
+  text-align: center;
+  font-style: none;
+
+}
+
+nav ul li a{
+  font-family: arial ,sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-style: uppercase;
+  font-weight: bold;
+}
+
+.tengah{
+  height:60%;
+  width:100%;
+  text-align: center;
+  position: static;
+}
+
+.tengah img {
+  border-radius:30%;
+  padding:5px;
+  padding-top: 100px;
+}
+
+
+.kiri{
+  margin-top:auto;
+  float:left;
+  height:100%;
+  width:280px;
+}
+
+.kiri p{
+  margin-top:10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+ul{
+  padding-left: 30px;
+}
+
+li{
+  margin:30px;
+}
+
+.kiri ul a{
+  font-family: arial ,sans-serif;
+  font-size: 30px;
+  text-decoration: none;
+  color: grey;
+  font-style: uppercase;
+  font-weight: bold;
+}
+
+.kanan{
+  margin-left:30px;
+  margin right: auto;
+  float: left;
+  height:100%;
+  width:69%;;
+  text-align: center;
+}
+
+.kanan h1{
+  font-size: 100px
+}
+
+#article-list{
+  width : 800px;
+  margin-left: 265px;
+
+}
+
+section #article-list article{
+  background-color: white;
+  padding: 10px;
+  border:1px solid transparent;
+  margin-bottom:2px;
+}
+
+article p{
+  margin-top: 16;
+  margin-bottom: 16px;
+}
+
+article a{
+  text-decoration: none;
+}
+
+
+#logo{
+
+}
